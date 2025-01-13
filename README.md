@@ -1,18 +1,33 @@
-## Getting Started
+# Pac-Man Game
+A simple Pac-Man game built in Java using the Swing library. Navigate Pac-Man through the maze, collect food, and avoid ghosts. The game ends when you lose all your lives.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+![Screenshot 2025-01-13 161329](https://github.com/user-attachments/assets/328ab7dd-23f1-402e-840c-572db248730d)
 
-## Folder Structure
+### Prerequisites
+- **Java JDK:** Version 8 or later.
+- **Development Environment:** IntelliJ IDEA, Eclipse, or any Java-compatible IDE.
 
-The workspace contains two folders by default, where:
+### How to Run
+1. Clone the Repository:
+   `git clone https://github.com/Jomon-J/PacMan-Game.git`
+2. Set Up the Assets: Place all required images (e.g., `wall.png`, `pacmanUp.png`, etc.) in the `assets` directory located in the project root.
+3. Compile and Run: Compile and run the program using your IDE or terminal: `javac App.java`  `java App`
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Controls
+- **Arrow Keys:** Move Pac-Man (Up, Down, Left, Right).
+- **Restart:** After Game Over, press any key to restart.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Notes
+- Ensure all image files are correctly placed in the `assets` directory.
+- The ghosts currently move randomly.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### License
+This project is free to use for educational purposes. Contributions are welcome.
 
-## Dependency Management
+
+### Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+### 🌟 *Don’t Forget to Star!*
+   - If you find this project useful, please consider giving it a star ⭐.It helps others discover it too!
