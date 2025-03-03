@@ -36,17 +36,28 @@ Set Up the Assets: Place all required images (e.g., `wall.png`, `pacmanUp.png`, 
 
 Compile and Run: Compile and run the program using your IDE or terminal: `javac App.java`  `java App`
 
-### Controls
+## Controls
 - **Arrow Keys:** Move Pac-Man (Up, Down, Left, Right).
 - **Restart:** After Game Over, press any key to restart.
 
-### Notes
+## Notes
 - Ensure all image files are correctly placed in the `assets` directory.
 - The ghosts currently move randomly.
 
-### Dependency Management
+## Folder Structure
+
+The workspace contains two folders by default, where:
+
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
+
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+
+## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
-### 🌟 *Don’t Forget to Star!*
+## 🌟 *Don’t Forget to Star!*
 If you find this project useful, please consider giving it a star ⭐.It helps others discover it too!
