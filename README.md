@@ -9,8 +9,8 @@ A simple Pac-Man game built in Java using the Swing library. Navigate Pac-Man th
 
 ## Getting Started  
 
-Run the following commands to clone and navigate into the project:
 ### Clone the Repository  
+Run the following commands to clone and navigate into the project:
 
 ```bash  
 git clone https://github.com/jomon-j/pacman-game.git
