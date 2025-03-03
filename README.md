@@ -16,7 +16,7 @@ Run the following commands to clone and navigate into the project:
 git clone https://github.com/jomon-j/pacman-game.git
 ```
 ```bash
-cd pacman game
+cd pacman-game
 ```
 
 <p align ="center">-or-</p>
